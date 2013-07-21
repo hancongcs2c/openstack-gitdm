@@ -74,7 +74,7 @@ def ParseOpts ():
     global CFName, CSVFile, CSVPrefix,DirName, Aggregate, Numstat
     global ReportByFileType, ReportUnknowns
 
-    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:l:no:p:r:stUuwx:yz')
+    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:l:no:p:r:stUuwTx:yz')
     for opt in opts:
         if opt[0] == '-a':
             AkpmOverLt = 1
