@@ -70,10 +70,16 @@ be:
 
     -x file  Export raw statistics as CSV.
 
+    -T  Aggregate the data by days instead of months in the
+        CSV file when -x is used.
+
     -w  Aggregate the data by weeks instead of months in the
         CSV file when -x is used.
 
-	-z 	Dump out the hacker database to "database.dump".
+    -y  Aggregate the data by years instead of months in the
+        CSV file when -x is used.
+
+    -z 	Dump out the hacker database to "database.dump".
 
 A typical command line used to generate the "who write 2.6.x" LWN articles
 looks like:
