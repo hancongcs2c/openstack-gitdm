@@ -65,6 +65,7 @@ ReportUnknowns = False
 # -x file.csv   Export raw statistics as CSV
 # -w        Aggregrate the raw statistics by weeks instead of months
 # -y            Aggregrate the raw statistics by years instead of months
+# -T            Aggregrate the raw statistics by days instead of months
 # -z		Dump out the hacker database at completion
 
 def ParseOpts ():
@@ -113,6 +114,8 @@ def ParseOpts ():
             Aggregate = 'week'
         elif opt [0] == '-y':
             Aggregate = 'year'
+        elif opt [0] == '-T':
+            Aggregate = 'day'
         elif opt[0] == '-z':
             DumpDB = 1
         

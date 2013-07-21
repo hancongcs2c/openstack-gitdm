@@ -23,6 +23,8 @@ def AccumulatePatch (p, Aggregate):
         date = "%.2d-%.2d"%(p.date.isocalendar()[0], p.date.isocalendar()[1])
     elif (Aggregate == 'year'):
         date = "%.2d"%(p.date.year)
+    elif (Aggregate == 'day'):
+        date = "%.2d-%.2d-%.2d"%(p.date.year, p.date.month, p.date.day)
     else:
         date = "%.2d-%.2d-01"%(p.date.year, p.date.month)
     authdatekey = "%s-%s"%(p.author.name, date)
