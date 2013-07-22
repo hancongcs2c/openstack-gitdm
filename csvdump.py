@@ -88,7 +88,7 @@ def OutputCSV (file):
         # sanitise names " is common and \" sometimes too
         empl_name = stat.employer.name.replace ('"', '.').replace ('\\', '.')
         author_name = stat.name.replace ('"', '.').replace ('\\', '.')
-        writer.writerow ([author_name, stat.email, empl_name, stat.date,
+        writer.writerow ([author_name.replace('.',' and '), stat.email, empl_name, stat.date,
                           stat.added, stat.removed, stat.changesets])
 
 __all__ = [  'AccumulatePatch', 'OutputCSV', 'store_patch' ]
