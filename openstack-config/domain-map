@@ -1,18 +1,14 @@
-# domain  employer  [< yyyy-mm-dd]
 ansolabs.com Rackspace < 2012-07-20
 ansolabs.com Nebula
 atomia.com Atomia
 att.com AT&T
 attinteractive.com AT&T
-au1.ibm.com IBM
-ca.ibm.com IBM
 canonical.com Canonical
 cern.ch CERN
 cisco.com Cisco Systems
 citrix.com Citrix
 cloud.com Citrix Systems
 cloudscaling.com Cloudscaling
-cn.ibm.com IBM
 dell.com Dell
 denali-systems.com Denali Systems
 dreamhost.com DreamHost
@@ -23,12 +19,10 @@ gluster.com Red Hat
 griddynamics.com Grid Dynamics
 hp.com HP
 ibm.com IBM
-il.ibm.com IBM
 inktank.com Inktank
 intel.com Intel
 internap.com Internap
 isi.edu ISI
-linux.vnet.ibm.com IBM
 locaweb.com.br Locaweb
 lahondaresearch.org La Honda Research
 managedit.ie Managed IT
@@ -63,7 +57,6 @@ suse.com SUSE
 suse.cz SUSE
 swiftstack.com SwiftStack
 unimelb.edu.au University of Melbourne
-us.ibm.com IBM
 valinux.co.jp VA Linux
 vertex.co.in NTT
 vexxhost.com VexxHost
@@ -71,19 +64,3 @@ virtualtech.jp VirtualTech
 wikimedia.org Wikimedia Foundation
 yahoo-inc.com Yahoo!
 zadarastorage.com Zadara Storage
-bj.cs2c.com.cn CS2C
-cs2c.com.cn CS2C
-twitter.com Twitter
-xamarin.com Xamarin
-99cloud.net 99cloud
-huawei.com Hua Wei
-brocade.com Brocade
-aristanetworks.com Arista Networks
-guardian.co.uk Guardian
-gridcentric.ca Gridcentric
-bull.net Bull
-thoughtworks.com ThoughtWorks
-objectif-libre.com  Objectif Libre
-iweb.com iWeb
-unitedstack.com UnitedStack
-b1-systems.de B1 System
